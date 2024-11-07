@@ -2,13 +2,16 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 
+// Load environment variables
+require("dotenv").config();
+
 const app = express();
 app.use(cors());
-app.use(express.json()); // Middleware to handle JSON requests
+app.use(express.json());
 
 // Connect to MongoDB
 mongoose
-  .connect("mongodb://localhost:27017/sciastra_db", {})
+  .connect(process.env.MONGO_URI, {})
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.log(err));
 

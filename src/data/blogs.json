@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to SciAstra",
+    "imageUrl": "https://via.placeholder.com/150",
+    "description": "Learn what SciAstra is all about and how we aim to educate.",
+    "date": "November 1, 2024"
+  },
+  {
+    "id": 2,
+    "title": "Top Courses for Aspiring Scientists",
+    "imageUrl": "https://via.placeholder.com/150",
+    "description": "Discover our top courses that can help you in your scientific career.",
+    "date": "November 2, 2024"
+  },
+  {
+    "id": 3,
+    "title": "Tips for Effective Online Learning",
+    "imageUrl": "https://via.placeholder.com/150",
+    "description": "Maximize your learning potential with these helpful tips.",
+    "date": "November 3, 2024"
+  },
+  {
+    "id": 4,
+    "title": "How SciAstra Supports Students",
+    "imageUrl": "https://via.placeholder.com/150",
+    "description": "Explore the ways we support our students to achieve academic success.",
+    "date": "November 4, 2024"
+  },
+  {
+    "id": 5,
+    "title": "Career Guidance for Science Enthusiasts",
+    "imageUrl": "https://via.placeholder.com/150",
+    "description": "Get career advice for those who are passionate about science.",
+    "date": "November 5, 2024"
+  },
+  {
+    "id": 6,
+    "title": "The Future of Science Education",
+    "imageUrl": "https://via.placeholder.com/150",
+    "description": "Our vision for the future of science education and learning.",
+    "date": "November 6, 2024"
+  }
+]

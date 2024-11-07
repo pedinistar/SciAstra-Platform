@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Introduction to Python Programming",
+    "pictureURL": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg",
+    "description": "Learn the basics of Python programming, including syntax, data structures, and simple algorithms.",
+    "duration": "8 hours",
+    "price": 49.99
+  },
+  {
+    "id": 2,
+    "name": "Web Development with JavaScript",
+    "pictureURL": "https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg",
+    "description": "Explore the fundamentals of JavaScript and build interactive web applications.",
+    "duration": "10 hours",
+    "price": 59.99
+  },
+  {
+    "id": 3,
+    "name": "Data Science with Python",
+    "pictureURL": "https://images.pexels.com/photos/159888/pexels-photo-159888.jpeg",
+    "description": "Dive into data science techniques using Python, including data analysis, visualization, and machine learning.",
+    "duration": "15 hours",
+    "price": 79.99
+  },
+  {
+    "id": 4,
+    "name": "Introduction to Machine Learning",
+    "pictureURL": "https://images.pexels.com/photos/529598/pexels-photo-529598.jpeg",
+    "description": "Understand the basics of machine learning, including supervised and unsupervised learning techniques.",
+    "duration": "12 hours",
+    "price": 89.99
+  },
+  {
+    "id": 5,
+    "name": "Frontend Development with React",
+    "pictureURL": "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Master frontend development with React, building modern and responsive web applications.",
+    "duration": "20 hours",
+    "price": 99.99
+  },
+  {
+    "id": 6,
+    "name": "Database Management with SQL",
+    "pictureURL": "https://images.pexels.com/photos/4974916/pexels-photo-4974916.jpeg",
+    "description": "Learn to manage databases using SQL, with a focus on data retrieval, updates, and database design.",
+    "duration": "6 hours",
+    "price": 39.99
+  }
+]

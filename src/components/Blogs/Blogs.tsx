@@ -28,6 +28,14 @@ const Blogs = () => {
     fetchBlogs();
   }, []);
 
+  const handleEdit = () => {
+    console.log("Edit Code");
+  };
+
+  const handleDelete = () => {
+    console.log("Delete Code");
+  };
+
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -38,6 +46,8 @@ const Blogs = () => {
             imageUrl={blog.imageUrl}
             description={blog.description}
             date={blog.date}
+            onEdit={handleEdit} // Pass a function for edit
+            onDelete={handleDelete} // Pass a function for delete
           />
         ))}
       </div>

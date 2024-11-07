@@ -30,7 +30,7 @@ const BlogPage = () => {
   }, []); // Empty array means this runs only once when the component mounts
 
   // Delete Blog function
-  const handleDelete = async (blogId) => {
+  const handleDelete = async (blogId: string) => {
     console.log("Attempting to delete blog with ID:", blogId); // Debug log
     try {
       const url = `http://localhost:5000/api/blogs/${blogId}`;
@@ -56,6 +56,7 @@ const BlogPage = () => {
 
   const handleEdit = (blogId: string) => {
     // Your edit logic
+    console.log(blogId);
   };
 
   return (

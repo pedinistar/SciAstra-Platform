@@ -14,7 +14,7 @@ const AddBlogPage = () => {
 
   // Handle input changes
   const handleChange = (e: React.FormEvent) => {
-    const { name, value } = e.target;
+    const { name, value } = e.currentTarget;
     setNewBlog({ ...newBlog, [name]: value });
   };
 

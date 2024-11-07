@@ -3,7 +3,7 @@ import CourseCard from "./CourseCard";
 import { useEffect, useState } from "react";
 
 type Course = {
-  _id: string;
+  _id: number;
   name: string;
   pictureURL: string;
   description: string;

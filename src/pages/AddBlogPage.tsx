@@ -13,7 +13,9 @@ const AddBlogPage = () => {
   const navigate = useNavigate(); // Hook to navigate after form submission
 
   // Handle input changes
-  const handleChange = (e: React.FormEvent) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = e.currentTarget;
     setNewBlog({ ...newBlog, [name]: value });
   };

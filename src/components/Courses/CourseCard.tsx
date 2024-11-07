@@ -1,7 +1,7 @@
 import React from "react";
 
 interface Course {
-  id: number;
+  id: string;
   name: string;
   pictureURL: string;
   description: string;

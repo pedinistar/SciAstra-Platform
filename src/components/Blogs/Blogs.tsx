@@ -42,12 +42,13 @@ const Blogs = () => {
         {blogs.map((blog) => (
           <BlogCard
             key={blog._id}
+            _id={blog._id}
             title={blog.title}
             imageUrl={blog.imageUrl}
             description={blog.description}
             date={blog.date}
-            onEdit={handleEdit} // Pass a function for edit
-            onDelete={handleDelete} // Pass a function for delete
+            onEdit={handleEdit}
+            onDelete={handleDelete}
           />
         ))}
       </div>

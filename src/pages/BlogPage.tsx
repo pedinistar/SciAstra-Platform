@@ -2,8 +2,16 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import BlogCard from "../components/Blogs/BlogCard";
 
+type Blog = {
+  _id: string;
+  title: string;
+  imageUrl: string;
+  description: string;
+  date: string;
+};
+
 const BlogPage = () => {
-  const [blogs, setBlogs] = useState([]);
+  const [blogs, setBlogs] = useState<Blog[]>([]);
 
   // Fetch blogs from the backend
   const fetchBlogs = async () => {
@@ -46,6 +54,10 @@ const BlogPage = () => {
     }
   };
 
+  const handleEdit = (blogId: string) => {
+    // Your edit logic
+  };
+
   return (
     <section className="blog w-full min-h-fit px-10 py-5 flex flex-col items-center">
       <div className="headings text-center mb-10 mt-20">
@@ -70,6 +82,7 @@ const BlogPage = () => {
               .map((blog) => (
                 <BlogCard
                   key={blog._id}
+                  _id={blog._id}
                   title={blog.title}
                   imageUrl={blog.imageUrl}
                   description={blog.description}

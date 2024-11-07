@@ -2,6 +2,15 @@ import CourseCard from "./CourseCard";
 // import coursesData from "../../data/courses.json";
 import { useEffect, useState } from "react";
 
+type Course = {
+  _id: string;
+  name: string;
+  pictureURL: string;
+  description: string;
+  duration: string;
+  price: number;
+};
+
 const Courses: React.FC = () => {
   const [courses, setCourses] = useState<Course[]>([]);
 

@@ -2,6 +2,14 @@ import BlogCard from "./BlogCard";
 // import blogData from "../../data/blogs.json";
 import { useEffect, useState } from "react";
 
+type Blog = {
+  _id: string;
+  title: string;
+  imageUrl: string;
+  description: string;
+  date: string;
+};
+
 const Blogs = () => {
   const [blogs, setBlogs] = useState<Blog[]>([]);
 

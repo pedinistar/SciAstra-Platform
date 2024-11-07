@@ -13,13 +13,13 @@ const AddBlogPage = () => {
   const navigate = useNavigate(); // Hook to navigate after form submission
 
   // Handle input changes
-  const handleChange = (e) => {
+  const handleChange = (e: React.FormEvent) => {
     const { name, value } = e.target;
     setNewBlog({ ...newBlog, [name]: value });
   };
 
   // Handle form submission
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
       const response = await fetch("http://localhost:5000/api/blogs", {
